@@ -111,10 +111,12 @@ export default function Home() {
             className="mb-6"
           >
             <div className="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full gradient-border overflow-hidden glow-primary">
-              <div className="w-full h-full flex items-center justify-center bg-card text-4xl md:text-5xl font-display font-bold text-gradient">
-                RS
-              </div>
-            </div>
+          <img
+            src="/PROFILE.jpeg"
+            alt="Ramprasath S"
+            className="w-full h-full object-cover"
+            />
+          </div>
           </motion.div>
 
           <motion.h1

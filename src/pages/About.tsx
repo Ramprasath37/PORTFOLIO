@@ -75,7 +75,11 @@ export default function About() {
                       style={{ perspective: "1000px" }}
                     >
                       <div className="w-full h-full flex items-center justify-center bg-card text-5xl font-display font-bold text-gradient">
-                        RS
+                        <img
+                          src="/PROFILE.jpeg"
+                          alt="Ramprasath S"
+                          className="w-full h-full object-cover"
+                         />
                       </div>
                     </motion.div>
 
