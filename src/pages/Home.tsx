@@ -187,7 +187,7 @@ export default function Home() {
             {[
               { icon: Github, href: "https://github.com/Ramprasath37", label: "GitHub" },
               { icon: Linkedin, href: "https://linkedin.com/in/ramprasath37", label: "LinkedIn" },
-              { icon: Mail, href: "sramprasath37@gmail.com", label: "Email" },
+              { icon: Mail, href: "mailto:sramprasath37@gmail.com", label: "Email" },
             ].map((social, index) => (
               <motion.a
                 key={index}
