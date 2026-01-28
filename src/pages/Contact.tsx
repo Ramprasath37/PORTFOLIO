@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { PageTransition } from "@/components/layout/PageTransition";
 import { Mail, Phone, MapPin, Linkedin, Send, CheckCircle2 } from "lucide-react";
 import { cn } from "@/lib/utils";
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 
 const contactInfo = [
